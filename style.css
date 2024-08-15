@@ -1,3 +1,33 @@
 *{
     background-color:aliceblue;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    border:3px solid black;
+    height:250px;
+    width:250px;
+    margin:auto;
+    gap:3px;
+    padding:5px;
+    flex-wrap:wrap;
+    align-content:center;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.sqr{
+    border:3px solid blue;
+    display:flex;
+    height:16px;
+    width:16px;
+    background-color:blue;
+}
+
+.toggle{
+    background-color:red;
+    border:3px solid red;
 }
