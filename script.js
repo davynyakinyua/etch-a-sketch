@@ -1,12 +1,8 @@
 console.log('Hello world');
 
-
 const container = document.querySelector('div');
+const button = document.querySelector('button');
 
-
-let input = prompt('Enter the number of squares to display on the grid');
-
-console.log(input);
 
 function grid(){
 
@@ -24,8 +20,25 @@ function grid(){
 
 };
 
-for(let i = 0; i < input; i++){
-    grid();
-};
 
 
+button.addEventListener('click', (event) => {
+
+    console.log(event.type);
+
+    if(event.type === 'click'){
+
+        //document.location.reload();
+
+        let input = prompt('Enter the number of squares to display on the grid');
+
+        console.log(input);
+
+        for(let i = 0; i < input; i++){
+    
+            grid();
+        
+        };
+
+    };
+});
