@@ -1,5 +1,5 @@
-# etch-a-sketch
-It is a drawing toy
+# Etch-a-sketch
+It is a Toy game 
 
 only Flexbox in CSS has been used to make the grid. 
 Based on the knowledge I posses now, it has been an almost 
