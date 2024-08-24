@@ -1,33 +1,41 @@
 *{
     background-color:aliceblue;
     text-align: center;
+    box-sizing:border-box;
 }
 
 .container{
+    height:600px;
+    width:600px;
+    margin:auto; 
     display:flex;
-    border:3px solid black;
-    height:250px;
-    width:250px;
-    margin:auto;
-    gap:3px;
-    padding:5px;
+    justify-content:center;
+    align-items:center;
+    gap:1px;
+    row-gap:1px;
     flex-wrap:wrap;
     align-content:center;
+
+
 }
 
-h1{
-    margin-bottom: 30px;
+
+.square,.hover{
+
+    height:20px;
+    flex: 0 0 3.4%;   
+
+    
+    
 }
 
-.sqr{
-    border:3px solid blue;
-    display:flex;
-    height:16px;
-    width:16px;
-    background-color:blue;
-}
-
-.toggle{
+.square{
     background-color:red;
-    border:3px solid red;
+
+    
+}
+
+.hover{
+    background-color:orange;
+
 }
